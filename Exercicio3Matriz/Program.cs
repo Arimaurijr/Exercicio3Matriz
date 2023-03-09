@@ -7,7 +7,6 @@ internal class Program
         const int ORDEM = 3;
         const int TAMANHO = ORDEM * ORDEM;
 
-
         int[,] matriz = new int[ORDEM, ORDEM];
         int[,] matriz_inversa = new int[ORDEM, ORDEM];
         int[] vetor_aux = new int[TAMANHO];
